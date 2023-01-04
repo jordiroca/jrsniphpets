@@ -49,12 +49,13 @@ Add the extension to VS Code
 When editing shellscript files use the following snippets:
 
 <!-- STARTREFTABLE -->
-| prefix | description |
-| --- | --- |
+| language | prefix | description |
+| --- | --- | --- |
 | html | <pre>php</pre> | PHP tag |
 | html | <pre>pv</pre> | PHP variable in HTML |
-| --- | --- |
+|  |  |  |
 | php | <pre>php</pre> | PHP tag |
+|  |  |  |
 <!-- ENDREFTABLE -->
 
 

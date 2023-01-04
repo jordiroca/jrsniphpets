@@ -15,15 +15,15 @@
 # LICENSE: See LICENSE file.
 #
 
-echo '| prefix | description |' >_reftable.md
-echo '| --- | --- |' >>_reftable.md
+echo '| language | prefix | description |' >_reftable.md
+echo '| --- | --- | --- |' >>_reftable.md
 
 # if flag is true
 
 first_lang=true
 for language in snippets/*.code-snippets; do
     if [[ ! "$first_lang" == "true" ]]; then
-        echo '| --- | --- |'
+        echo '|  |  |  |'
     fi
     first_lang=false
     lang=$(basename $language .code-snippets)
@@ -33,6 +33,7 @@ for language in snippets/*.code-snippets; do
             echo "| $lang | <pre>$field1</pre> | $field2 |"
         done
 done >>_reftable.md
+echo '|  |  |  |' >>_reftable.md
 
 inicio='STARTREFTABLE'
 final='ENDREFTABLE'
@@ -47,7 +48,6 @@ csplit -s -f _tmpsplit_ README.md '/.*STARTREFTABLE.*/+1' '/.*ENDREFTABLE.*/'
 cat _tmpsplit_00 _reftable.md _tmpsplit_02 >README.md
 
 rm -f _reftable.md _tmpsplit_0*
-
 
 # Subir la version
 lineaversion=$(grep -m 1 -nh '"version"' package.json | cut -d ":" -f 1)
