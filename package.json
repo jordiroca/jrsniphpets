@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "jrsniphpets",
   "displayName": "jrsniphpets",
   "description": "Snippets PHP para VS Code de Jordi Roca",
@@ -19,11 +19,11 @@
     "snippets": [
       {
         "language": "php",
-        "path": "./snippets/php.json"
+        "path": "./snippets/php.code-snippets"
       },
       {
         "language": "html",
-        "path": "./snippets/html.json"
+        "path": "./snippets/html.code-snippets"
       }
     ]
   }
