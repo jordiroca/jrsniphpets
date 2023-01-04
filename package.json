@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
-  "name": "jrbashnippets",
-  "displayName": "jrbashnippets",
-  "description": "Snippets BASH para VS Code de Jordi Roca",
+  "version": "1.0.1",
+  "name": "jrsniphpets",
+  "displayName": "jrsniphpets",
+  "description": "Snippets PHP para VS Code de Jordi Roca",
   "publisher": "jordiroca",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jordiroca/jrbashnippets"
+    "url": "https://github.com/jordiroca/jrsniphpets"
   },
   "icon": "images/jrsniphpets.png",
   "engines": {
