@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Jordi Roca
+Copyright (c) 2023 Jordi Roca
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

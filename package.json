@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "jrbashnippets",
+  "displayName": "jrbashnippets",
+  "description": "Snippets BASH para VS Code de Jordi Roca",
+  "publisher": "jordiroca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordiroca/jrbashnippets"
+  },
+  "icon": "images/jrbashnippets.png",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/php.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      }
+    ]
+  }
+}

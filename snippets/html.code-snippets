@@ -1,0 +1,12 @@
+{
+  "php": {
+    "prefix": "php",
+    "body": ["<?php\n\n$1\n\n?>\n"],
+    "description": "PHP tag"
+  },
+  "pv": {
+    "prefix": "pv",
+    "body": ["<?=$1;?>"],
+    "description": "PHP variable in HTML"
+  }
+}

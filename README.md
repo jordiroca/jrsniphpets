@@ -51,19 +51,10 @@ When editing shellscript files use the following snippets:
 <!-- STARTREFTABLE -->
 | prefix | description |
 | --- | --- |
-| <pre>shebang-bash</pre> | Adds a shebang for 'bash' shell scripts, a magic comment for file encoding and a header |
-| <pre>heredoc2var</pre> | Assign heredoc to variable |
-| <pre>heredoc2file</pre> | cat heredoc to file |
-| <pre>if</pre> | An IF command. |
-| <pre>elseif</pre> | Add an elseif to an if command. |
-| <pre>else</pre> | else |
-| <pre>forin</pre> | for VAR in LIST |
-| <pre>fori</pre> | For I with an INDEX |
-| <pre>while</pre> | While loop |
-| <pre>until</pre> | until loop |
-| <pre>fn</pre> | Insert a function definition |
-| <pre>contains</pre> | Check if substring in a string |
-| <pre>indexofsubstring</pre> | Index of substring in a string |
+| html | <pre>php</pre> | PHP tag |
+| html | <pre>pv</pre> | PHP variable in HTML |
+| --- | --- |
+| php | <pre>php</pre> | PHP tag |
 <!-- ENDREFTABLE -->
 
 
